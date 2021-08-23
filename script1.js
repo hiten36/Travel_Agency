@@ -1,6 +1,6 @@
 AOS.init({
     duration:800,
-    delay:1000
+    delay:400
 });
 
 new Splide( '.splide',

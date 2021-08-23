@@ -23,11 +23,19 @@ html::-webkit-scrollbar-thumb{
     transform: scale(0);
     transition: 0.23s ease;
     transform-origin: top right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
 }
 .mnav-2{
     transform: scale(0);
     transition: 0.23s ease;
     transform-origin: top right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
 }
 #nav1{
     width: 27vw;
@@ -625,6 +633,9 @@ html::-webkit-scrollbar-thumb{
     .pr-card{
         width: 26vw;
     }
+    #nav2{
+        width: 20vw;
+    }
 }
 @media screen and (max-width:1147px) {
     .ser-card{
@@ -640,6 +651,12 @@ html::-webkit-scrollbar-thumb{
     }
     .home2{
         margin-top: 2rem;
+    }
+    #nav1{
+        width: 37vw;
+    }
+    #nav2{
+        width: 25vw;
     }
 }
 @media screen and (max-width:872px) {
@@ -752,6 +769,9 @@ html::-webkit-scrollbar-thumb{
     .logo a h1{
         font-size: 23px;
     }
+    #nav2{
+        width: 30vw;
+    }
 }
 @media screen and (max-width:642px) {
     .h12{
@@ -811,6 +831,16 @@ html::-webkit-scrollbar-thumb{
     .l1{
         margin: 0px 3px;
     }
+    #nav1{
+        width: 47vw;
+    }
+    #nav2{
+        width: 37vw;
+    }
+    .mnav{
+        top: 4.5rem;
+        right: 2rem;
+    }
 }
 @media screen and (max-width:642px) {
     .foot11 h1{
@@ -863,6 +893,20 @@ html::-webkit-scrollbar-thumb{
     .mid{
         width: 44vw;
     }
+    #nav1{
+        width: 53vw;
+        font-size: 14px;
+    }
+    #nav1 input{
+        font-size: 14px;
+    }
+    #nav2{
+        font-size: 14px;
+        width: 43vw;
+    }
+    .mnav1 a{
+        padding: 7px 10px;
+    }
 }
 @media screen and (max-width:450px) {
     .blog-card img{
@@ -891,5 +935,11 @@ html::-webkit-scrollbar-thumb{
     }
     .mid{
         width: 39vw;
+    }
+    #nav1{
+        width: 57vw;
+    }
+    #nav2{
+        width: 47vw;
     }
 }
